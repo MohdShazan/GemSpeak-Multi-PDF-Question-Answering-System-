@@ -1,0 +1,12 @@
+streamlit
+google-generativeai
+python-dotenv
+langchain
+PyPDF2
+chromadb
+faiss-cpu
+langchain_google_genai
+pyqt5<5.13
+pyqtwebengine<5.13
+daal==2021.4.0
+numpy==1.21.6
