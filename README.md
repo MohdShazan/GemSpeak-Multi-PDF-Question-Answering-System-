@@ -42,33 +42,23 @@ To run this project locally, you need to have the following installed:
    ```bash
    git clone https://github.com/username/repository-name.git
 
+2. Navigate to the project directory:
 
-Navigate to the project directory:
+   ```bash
+   cd repository-name
 
-bash
-Copy code
+3. Install the required dependencies:
+   pip install -r requirements.txt
 
-cd repository-name
-Install the required dependencies:
 
-bash
-Copy code
-pip install -r requirements.txt
-Make sure you have a .env file with your Google API key for Google Generative AI:
-
-makefile
-Copy code
+4.Make sure you have a .env file with your Google API key for Google Generative AI:
 GOOGLE_API_KEY=your-google-api-key
+
+
 ▶️ Running the Application
-To start the app, run the following command:
 
-bash
-Copy code
 streamlit run app.py
-The app will launch in your browser, and you can start uploading your PDF files and asking questions.
 
-🤝 Contributing
-Feel free to fork this repository, submit issues, or create pull requests to contribute to the project. Contributions are always welcome!
 
-📜 License
-This project is licensed under the MIT License. See the LICENSE file for details.
+
+
