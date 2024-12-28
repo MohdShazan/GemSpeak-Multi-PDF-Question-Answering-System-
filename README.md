@@ -1,56 +1,74 @@
-## Live Demo
+# GemSpeak – Multi-PDF Question Answering System
+
+![GemSpeak Screenshot](https://github.com/user-attachments/assets/b60cd8f6-532d-4efe-a566-c241dde79e40)
+
+## 📖 Description
+
+**GemSpeak** is a web application built using **Streamlit** that allows users to ask questions based on the content of multiple uploaded PDF documents. It leverages **Google Generative AI** and **LangChain** to provide detailed answers by extracting and processing the text from PDFs.
+
+---
+
+## ✨ Features
+
+- Upload and analyze multiple PDF files.
+- Automatically extracts and processes text from PDFs.
+- Splits text into chunks for better search and question answering.
+- Uses **Google Generative AI** for question answering based on the document's content.
+- User-friendly interface built with **Streamlit**.
+
+---
+
+## 🚀 Live Demo
+
 Check out the live demo of the app here: [GemSpeak - Live Demo](https://ask-gemspeak.streamlit.app/)
 
+---
 
-![Chat PDF - Google Chrome 25-12-2024 00_00_38](https://github.com/user-attachments/assets/b60cd8f6-532d-4efe-a566-c241dde79e40)
+## 🛠️ Prerequisites
 
-GemSpeak – Multi-PDF Question Answering System
-GemSpeak is a web application built using Streamlit that allows users to ask questions based on the content of multiple uploaded PDF documents. It leverages Google Generative AI and Langchain to provide detailed answers by extracting and processing the text from PDFs.
-
-Features
-Upload and analyze multiple PDF files.
-Automatically extracts and processes text from PDFs.
-Splits text into chunks for better search and question-answering.
-Uses Google Generative AI for question answering based on the document's content.
-User-friendly interface built with Streamlit.
-Prerequisites
 To run this project locally, you need to have the following installed:
 
-Python 3.x
-Streamlit
-PyPDF2
-Langchain
-Google Generative AI API (API key)
-Installation
-Clone this repository:
+- Python 3.x
+- Streamlit
+- PyPDF2
+- LangChain
+- Google Generative AI API (API key)
 
-bash
-Copy code
-git clone https://github.com/username/repository-name.git
+---
+
+## 📥 Installation
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/username/repository-name.git
+
+
 Navigate to the project directory:
 
 bash
 Copy code
+
 cd repository-name
 Install the required dependencies:
 
 bash
 Copy code
 pip install -r requirements.txt
-Make sure you have a .env file with your Google API key for Google Generative AI.
+Make sure you have a .env file with your Google API key for Google Generative AI:
 
-Running the Application
+makefile
+Copy code
+GOOGLE_API_KEY=your-google-api-key
+▶️ Running the Application
 To start the app, run the following command:
 
 bash
 Copy code
-
 streamlit run app.py
-
 The app will launch in your browser, and you can start uploading your PDF files and asking questions.
 
-Contributing
-Feel free to fork this repository, submit issues, or create pull requests to contribute to the project.
+🤝 Contributing
+Feel free to fork this repository, submit issues, or create pull requests to contribute to the project. Contributions are always welcome!
 
-License
-This project is licensed under the MIT License – see the LICENSE file for details.
+📜 License
+This project is licensed under the MIT License. See the LICENSE file for details.
